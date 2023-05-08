@@ -6,4 +6,4 @@ def on_slider_change(slider):
 slider = ui.slider(min=0, max=100, step=1, on_change=on_slider_change)
 label = ui.label('Slider value: 0')
 
-ui.run()
+ui.run(port=8080)
